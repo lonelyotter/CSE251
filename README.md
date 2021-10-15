@@ -1,2 +1,2 @@
 # cse251
-Steps and programs for CSE 251 Programming in C of MSU
+My steps and programs code for [MSU CSE251 Spring, 2014 **Programming in C**](https://www.cse.msu.edu/~cse251/index.html)
