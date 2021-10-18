@@ -28,9 +28,9 @@ int main()
     double decrease;
 
     printf("Enter a value for a: ");
-    scanf("%lf\n", &a);
+    scanf("%lf", &a);
     printf("Enter a value for b: ");
-    scanf("%lf\n", &b);
+    scanf("%lf", &b);
 
     printf("Integral evaluation\n");
     while (n <= 100000)
@@ -70,5 +70,5 @@ double sinc(double x)
         return 1;
     }
 
-    return (1e7 * sin(M_PI * x)) / (1e7 * M_PI * x);
+    return sin(M_PI * x) / (M_PI * x);
 }
